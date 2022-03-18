@@ -1,0 +1,8 @@
+<input
+  #input
+  pInputText
+  [type]="type"
+  [(ngModel)]="field"
+  (focusout)="update()"
+  (keydown.enter)="update()"
+/>
